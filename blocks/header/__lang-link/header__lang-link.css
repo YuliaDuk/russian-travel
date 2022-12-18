@@ -9,7 +9,7 @@
     letter-spacing: 0em;
     width: 30px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .header__lang-link{
         width: 22px;
         font-size: 18px;

@@ -7,14 +7,15 @@
     align-items: end;
     width: calc(100% - 96px);
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 800px){
+    .header{
+        width: calc(100% - 48px);
+    }
+}
+@media screen and (max-width: 450px){
     .header{
         width: calc(100% - 32px);
         padding-top: 16px;
     }
 }
-@media screen and (min-width: 321px) and (max-width: 768px){
-    .header{
-        width: calc(100% - 48px);
-    }
-}
+
